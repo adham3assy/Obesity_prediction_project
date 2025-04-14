@@ -98,7 +98,7 @@ After experimentation:
 ---
 
 ## Contributors
-1. Amr Alaa: [GitHub](https://github.com/Amrokahla)- [LinkedIn](https://www.linkedin.com/in/amr-kahla-9447841a7/)
+1. Amr Kahla: [GitHub](https://github.com/Amrokahla)- [LinkedIn](https://www.linkedin.com/in/amr-kahla-9447841a7/)
 2. Ali Adel: [GitHub](https://github.com/adelian14) - [LinkedIn](https://www.linkedin.com/in/ali-adel-84b390101/)  
 3. Adham Assy: [GitHub](https://github.com/adham3assy) - [LinkedIn](https://www.linkedin.com/in/adham-assy/)
 4. Israa Abdelghany: [GitHub](https://github.com/IsraaAbdelghany9) - [LinkedIn](https://www.linkedin.com/in/israa-abdelghany/)
