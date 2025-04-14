@@ -4,27 +4,28 @@ Welcome to **Obesity Management: A Machine Learning Approach**, a data-driven so
 
 ---
 
-## 📌 Table of Contents
+## 📌 Table of Contents:
 
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Features](#features)
-- [ML Pipeline](#ml-pipeline)
-- [Results](#results)
-- [Usage](#usage)
+- [Overview](#Overview)
+- [Dataset](#Dataset)
+- [Features](#Features)
+- [ML Pipeline](#Ml-pipeline)
+- [Results](#Results)
 - [Installation](#installation)
-- [Contributors](#contributors)
+- [Usage](#usage)
+- [Contributors](#Contributors)
+- [Model Details](#Model Details)
 - [License](#license)
 
 ---
 
-## 📖 Overview
+## 📖 Overview:
 
 Obesity is a major global health challenge with growing prevalence and serious economic implications. Traditional interventions often lack personalization. This project addresses the challenge by developing a machine learning pipeline to predict **NObeyesdad** (obesity levels) based on user input, offering potential for targeted health advice.
 
 ---
 
-## 📂 Dataset
+## Dataset:
 
 - **Source**: Publicly available dataset from [UCI Machine Learning Repository](https://www.kaggle.com/datasets)
 - **Target Variable**: `NObeyesdad` – Categorized obesity levels.
@@ -37,7 +38,7 @@ Obesity is a major global health challenge with growing prevalence and serious e
 
 ---
 
-## 🎯 Features
+## Features:
 
 - **Binary and Categorical Inputs**: Encoded with appropriate transformations.
 - **Custom Pipelines**: Using `ColumnTransformer` and `Pipeline` for scalable preprocessing.
@@ -45,7 +46,7 @@ Obesity is a major global health challenge with growing prevalence and serious e
 
 ---
 
-## 🛠️ ML Pipeline
+## ML Pipeline:
 
 - **Preprocessing**: Label encoding, scaling, null handling.
 - **Models Evaluated**:
@@ -62,7 +63,7 @@ Obesity is a major global health challenge with growing prevalence and serious e
 
 ---
 
-## 📊 Results
+## Results:
 
 After experimentation:
 - Achieved **~90% accuracy** on test data.
@@ -70,4 +71,40 @@ After experimentation:
 - Family history and weight were confirmed as dominant predictors.
 
 ---
+
+## Installation:
+1. Clone the repository:
+   ```bash
+   [git clone https://github.com/Israa/prediction-of-obesity-risk.git](https://github.com/IsraaAbdelghany9/Prediction-of-Obesity-Risk.git)
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Prediction-of-Obesity-Risk
+   ```
+
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage:
+1. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook prediction-of-obesity-risk-iti-project.ipynb
+   ```
+2. Follow the steps in the notebook to preprocess the data, train the model, and evaluate its performance.
+
+
+## Contributors:
+1. Amr Alaa: [GitHub](https://github.com/Amrokahla)- [LinkedIn](https://www.linkedin.com/in/amr-kahla-9447841a7/)
+2. Ali Adel: [GitHub](https://github.com/adelian14) - [LinkedIn](https://www.linkedin.com/in/ali-adel-84b390101/)  
+3. Adham Assy: [GitHub](https://github.com/adham3assy) - [LinkedIn](https://www.linkedin.com/in/adham-assy/)
+4. Israa Abdelghany: [GitHub](https://github.com/IsraaAbdelghany9) - [LinkedIn](https://www.linkedin.com/in/israa-abdelghany/)
+
+## Model Details:
+The project uses the LightGBM (LGBM) model for prediction. LightGBM is a gradient boosting framework that is efficient and scalable for large datasets. The model is trained on preprocessed data and evaluated using metrics such as accuracy, precision, recall, and F1-score.
+
+## License:
+
+
 
