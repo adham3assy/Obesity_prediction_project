@@ -14,7 +14,7 @@ Welcome to **Obesity Management: A Machine Learning Approach**, a data-driven so
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#Contributors)
-- [Model Details](#Model Details)
+- [Model Details](#Model-Details)
 - [License](#license)
 
 ---
@@ -105,6 +105,7 @@ After experimentation:
 The project uses the LightGBM (LGBM) model for prediction. LightGBM is a gradient boosting framework that is efficient and scalable for large datasets. The model is trained on preprocessed data and evaluated using metrics such as accuracy, precision, recall, and F1-score.
 
 ## License:
+This project is licensed under the Apache2.0 License. See the LICENSE file for details.
 
 
 
